@@ -23,6 +23,7 @@ class CustomException(Exception):
     def __str__(self):
         return self.error_message
     
+
 # I've created a function over here which will probably give you a message like how your message should
 # look like inside your file with respect to your custom exception.
 
@@ -39,8 +40,5 @@ class CustomException(Exception):
 
 
 
-    
 
-        #this info will probably give you all the information like on which file the exception has occurred,
-    #on which line number, the exception has occurred.
-    #All those information will be probably given and will be stored in this particular variable 
+
